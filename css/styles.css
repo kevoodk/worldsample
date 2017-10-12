@@ -1,0 +1,76 @@
+/*
+ * css
+ */
+body {
+    background-color: silver;
+    color: black;
+}
+header, footer {
+  background-color: black;
+  color: silver;
+  padding: .5em 1em;
+}
+footer {
+  clear: both;
+  position: relative;
+  bottom: 0;
+}
+main {
+    min-height: 400px;
+}
+header h1 {
+  font-size: 1.6em;
+}
+main h1 {
+  font-size: 1.4em;
+  margin: .2em 0;
+}
+
+#menu {
+  outline: 0px solid green;
+  padding: 0 1em;
+  text-align: right;
+}
+#menu li {
+  border: 3px outset gray;
+  border-radius: 4px;
+  background-color: silver;
+  display: inline;
+  list-style: none;
+  margin: 0 1em 0 0;
+  padding: 3px;
+}
+#menu li:active {
+  border: 3px inset gray;
+}
+#menu li a {
+    color: black;
+    text-decoration: none;
+}
+#menu li a:hover {
+    color: #000099;
+}
+
+#login {
+    margin: 10px auto;
+}
+.nav, .main {
+  margin: 10px auto;
+}
+.nav {
+  outline: 1px solid red;
+}
+.haves {
+  float: left;
+  height: 400px;
+  overflow: scroll;
+  width: 200px;
+  outline: 1px solid green;
+}
+.gets {
+  float: left;
+  margin: 0 20px;
+  padding: 0 10px;
+  width: 600px;
+  outline: 1px solid blue;
+}
